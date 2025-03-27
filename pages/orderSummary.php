@@ -32,8 +32,7 @@
                                 2021</span></p>
                     </div>
                     <button
-                        class="no-underline inline-block rounded-full border-indigo-600 bg-black px-5 py-3 font-medium text-white shadow-sm transition-colors hover:bg-grey-700">Track
-                        Your Order</button>
+                        class="no-underline inline-block rounded-full border-indigo-600 bg-black px-5 py-3 font-medium text-white shadow-sm transition-colors hover:bg-grey-700">Home</button>
                 </div>
                 <div class="w-full px-3 min-[400px]:px-6">
                     <div class="flex flex-col lg:flex-row items-center py-6 border-b border-gray-200 gap-6 w-full">
