@@ -16,10 +16,10 @@
         </button>
       </div>
       <div class="hidden lg:flex lg:gap-x-12">
-        <a href="#" class="text-sm/6 font-semibold text-gray-900 no-underline">Shop</a>
-        <a href="#" class="text-sm/6 font-semibold text-gray-900 no-underline">On Sale</a>
-        <a href="#" class="text-sm/6 font-semibold text-gray-900 no-underline">New Arrivle</a>
-        <a href="#" class="text-sm/6 font-semibold text-gray-900 no-underline">Brand</a>
+        <a href="../pages/shop.php" class="text-sm/6 font-semibold text-gray-900 no-underline">Shop</a>
+        <a href="../pages/sale.php" class="text-sm/6 font-semibold text-gray-900 no-underline">On Sale</a>
+        <a href="../pages/newArrivals.php" class="text-sm/6 font-semibold text-gray-900 no-underline">New Arrivle</a>
+        <a href="../pages/brand.php" class="text-sm/6 font-semibold text-gray-900 no-underline">Brand</a>
       </div>
       <div class="hidden lg:flex lg:flex-1 lg:justify-end">
         <a href="../pages/login.php" class="text-sm/6 font-semibold text-gray-900 no-underline">Login</a>
