@@ -7,7 +7,6 @@
     <title>Home</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-
 <body>
     <!-- import files -->
     <?php include '../library/head.php'; ?>
@@ -31,7 +30,7 @@
 
                     <div class="mt-4 flex gap-4 sm:mt-6">
                         <a
-                            class="inline-block rounded-full border-indigo-600 bg-black px-5 py-3 font-medium text-white shadow-sm transition-colors hover:bg-grey-700"
+                            class="no-underline inline-block rounded-full border-indigo-600 bg-black px-5 py-3 font-medium text-white shadow-sm transition-colors hover:bg-grey-700"
                             href="#">
                             Shop Now
                         </a>
@@ -77,14 +76,14 @@
                                 class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]" />
 
                             <div class="relative bg-white pt-3">
-                                <h3 class="text-xs text-gray-700 group-hover:underline group-hover:underline-offset-4">
+                                <h3 class="text-xs text-gray-700 group-hover:underline group-hover:underline-offset-4 no-underline">
                                     Basic Tee
                                 </h3>
 
                                 <p class="mt-2">
                                     <span class="sr-only"> Regular Price </span>
 
-                                    <span class="tracking-wider text-gray-900"> £24.00 GBP </span>
+                                    <span class="tracking-wider text-gray-900 no-underline"> £24.00 GBP </span>
                                 </p>
                             </div>
                         </a>
@@ -98,14 +97,14 @@
                                 class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]" />
 
                             <div class="relative bg-white pt-3">
-                                <h3 class="text-xs text-gray-700 group-hover:underline group-hover:underline-offset-4">
+                                <h3 class="text-xs text-gray-700 group-hover:underline group-hover:underline-offset-4 no-underline">
                                     Basic Tee
                                 </h3>
 
                                 <p class="mt-2">
                                     <span class="sr-only"> Regular Price </span>
 
-                                    <span class="tracking-wider text-gray-900"> £24.00 GBP </span>
+                                    <span class="tracking-wider text-gray-900 no-underline"> £24.00 GBP </span>
                                 </p>
                             </div>
                         </a>
@@ -119,14 +118,14 @@
                                 class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]" />
 
                             <div class="relative bg-white pt-3">
-                                <h3 class="text-xs text-gray-700 group-hover:underline group-hover:underline-offset-4">
+                                <h3 class="text-xs text-gray-700 group-hover:underline group-hover:underline-offset-4 no-underline">
                                     Basic Tee
                                 </h3>
 
                                 <p class="mt-2">
                                     <span class="sr-only"> Regular Price </span>
 
-                                    <span class="tracking-wider text-gray-900"> £24.00 GBP </span>
+                                    <span class="tracking-wider text-gray-900 no-underline"> £24.00 GBP </span>
                                 </p>
                             </div>
                         </a>
@@ -140,14 +139,14 @@
                                 class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]" />
 
                             <div class="relative bg-white pt-3">
-                                <h3 class="text-xs text-gray-700 group-hover:underline group-hover:underline-offset-4">
+                                <h3 class="text-xs text-gray-700 group-hover:underline group-hover:underline-offset-4 no-underline">
                                     Basic Tee
                                 </h3>
 
                                 <p class="mt-2">
                                     <span class="sr-only"> Regular Price </span>
 
-                                    <span class="tracking-wider text-gray-900"> £24.00 GBP </span>
+                                    <span class="tracking-wider text-gray-900 no-underline"> £24.00 GBP </span>
                                 </p>
                             </div>
                         </a>

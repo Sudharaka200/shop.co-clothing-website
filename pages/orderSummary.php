@@ -32,7 +32,7 @@
                                 2021</span></p>
                     </div>
                     <button
-                        class="rounded-full py-3 px-7 font-semibold text-sm leading-7 text-white bg-indigo-600 max-lg:mt-5 shadow-sm shadow-transparent transition-all duration-500 hover:bg-indigo-700 hover:shadow-indigo-400">Track
+                        class="no-underline inline-block rounded-full border-indigo-600 bg-black px-5 py-3 font-medium text-white shadow-sm transition-colors hover:bg-grey-700">Track
                         Your Order</button>
                 </div>
                 <div class="w-full px-3 min-[400px]:px-6">
