@@ -18,23 +18,10 @@ if($check = 1){
     echo "alert('Login success.');";
     echo "window.location.replace('../../')";
     echo "</script>";
-}else if($check = 0){
-    $check1 = 0;
-
-    $sql1 = "SELECT * FROM admin WHERE email='$email' AND password='$password'";
-    $result1 = $conn1->query($sql1);
-    while($row1 = $result1->fetch_assoc())
-
-    if($check1 = 1){
-        echo "<script>";
-        echo "alert('admin Login success.');";
-        echo "window.location.replace('../../admin/dashboard.php')";
-        echo "</script>";
-    }
 }else{
     echo "<script>";
     echo "alert('Error!');";
-    echo "window.location.replace('../../pages/login.php');";
+    echo "window.location.replace('../signup.php');";
     echo "</script>";
 }
 
