@@ -82,7 +82,6 @@
                                 </button>
                             </div>
                         </li>
-                        <?php } ?>
                     </ul>
 
                     <div class="mt-8 flex justify-end border-t border-gray-100 pt-8">
@@ -115,6 +114,7 @@
                                     Checkout
                                 </a>
                             </div>
+                            <?php } ?>
                         </div>
                     </div>
                 </div>
