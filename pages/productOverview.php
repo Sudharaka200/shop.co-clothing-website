@@ -71,7 +71,7 @@
 
                             <div class="mt-6 flex flex-wrap gap-4">
                                 
-                                <a href="../pages/cart.php">
+                                <a href="../pages/cart.php?N_product_id=<?php echo $row['N_product_id']; ?>">
                                 <button type="button"
                                     class="no-underline inline-block rounded-full border-indigo-600 bg-black px-5 py-3 font-medium text-white shadow-sm transition-colors hover:bg-grey-700">Add
                                     to cart</button>
