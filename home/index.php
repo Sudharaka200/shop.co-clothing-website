@@ -74,7 +74,7 @@
                     $result = $conn->query($sql);
                     while ($row = $result->fetch_assoc()) { ?>
                     <li>
-                        <a href="../pages/productOverview.php?id=<?php echo $row['N_product_id']; ?>" class="group block overflow-hidden">
+                        <a href="../pages/productOverview.php?N_product_id=<?php echo $row['N_product_id']; ?>" class="group block overflow-hidden">
                             <img
                                 src=<?php echo $row["N_product_img1"] ?>
                                 alt=""
