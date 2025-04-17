@@ -22,6 +22,7 @@
         $sql = "SELECT * FROM new_arrival_products WHERE N_product_id='$N_product_id' ";
         $result = $conn->query($sql);
         while($row = $result->fetch_assoc()) {
+
     ?>
         <div class="w-full max-w-7xl px-4 md:px-5 lg-6 mx-auto">
             <h2 class="font-manrope font-bold text-4xl leading-10 text-black text-center">
@@ -34,7 +35,7 @@
                 <div
                     class="flex flex-col lg:flex-row lg:items-center justify-between px-6 pb-6 border-b border-gray-200">
                     <div class="data">
-                        <p class="font-semibold text-base leading-7 text-black">Order Id: <span class="text-indigo-600 font-medium">#1023<?php echo $row["N_product_id"] ?></span></p>
+                        <p class="font-semibold text-base leading-7 text-black" name="N_product_id">Order Id: <span class="text-indigo-600 font-medium">#1023<?php echo $row["N_product_id"] ?></span></p>
                         <p class="font-semibold text-base leading-7 text-black mt-4">Order Payment : <span class="text-gray-400 font-medium"> 18th march
                                 2021</span></p>
                     </div>
@@ -44,14 +45,14 @@
                 <div class="w-full px-3 min-[400px]:px-6">
                     <div class="flex flex-col lg:flex-row items-center py-6 border-b border-gray-200 gap-6 w-full">
                         <div class="img-box max-lg:w-full">
-                            <img src=<?php echo $row["N_product_img1"] ?> alt="Premium Watch image"
+                            <img src=<?php echo $row["N_product_img1"] ?> alt="Premium Watch image"name="N_product_img1"
                                 class="aspect-square w-full lg:max-w-[140px] rounded-xl object-cover">
                         </div>
                         <div class="flex flex-row items-center w-full ">
                             <div class="grid grid-cols-1 lg:grid-cols-2 w-full">
                                 <div class="flex items-center">
                                     <div class="">
-                                        <h2 class="font-semibold text-xl leading-8 text-black mb-3">
+                                        <h2 class="font-semibold text-xl leading-8 text-black mb-3" name="N_product_name">
                                         <?php echo $row["N_product_name"] ?></h2>
                                         <p class="font-normal text-lg leading-8 text-gray-500 mb-3 ">
                                             By: Dust Studios</p>
@@ -64,7 +65,7 @@
                                     <div class="col-span-5 lg:col-span-1 flex items-center max-lg:mt-3">
                                         <div class="flex gap-3 lg:block">
                                             <p class="font-medium text-sm leading-7 text-black">price</p>
-                                            <p class="lg:mt-4 font-medium text-sm leading-7 text-indigo-600">$<?php echo $row["N_product_price"] ?></p>
+                                            <p class="lg:mt-4 font-medium text-sm leading-7 text-indigo-600" id="N_product_price" name="N_product_price">$<?php echo $row["N_product_price"] ?></p>
                                         </div>
                                     </div>
                                     <div class="col-span-5 lg:col-span-2 flex items-center max-lg:mt-3 ">

@@ -109,7 +109,7 @@
                             </dl>
                             <div class="flex justify-end">
                                 <a
-                                    href="../pages/orderSummary.php?N_product_id=<?php echo $row['N_product_id']; ?>"
+                                    href="../pages/orderSummary.php?N_product_id=<?php echo $row['N_product_id']; ?>" 
                                     class="no-underline inline-block rounded-full border-indigo-600 bg-black px-5 py-3 font-medium text-white shadow-sm transition-colors hover:bg-grey-700">
                                     Checkout
                                 </a>
